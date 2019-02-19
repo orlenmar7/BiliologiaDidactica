@@ -1,0 +1,138 @@
+
+// Fonts
+/* @import url('https://fonts.googleapis.com/css?family=Nunito'); */
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~sweetalert2/src/sweetalert2';
+@import '~toastr/toastr.scss';
+
+.hidden {
+    display: none!important;
+    widows: 0!important;
+    height: 0!important;
+    opacity: 0!important;
+}
+
+.profile-cover__img {
+    top: 120px!important;
+    left: 30px!important;
+    text-align: center!important;
+    z-index: 1!important;
+}
+
+.profile-cover__img > img {
+    width: 120px!important;
+    height: 120px!important;
+    border: 5px solid #fff!important;
+    border-radius: 50%!important;
+}
+
+.btn i.fa {
+    color: #fff!important;
+}
+
+a.btn.btn-outline-primary i.fa {
+    color: #745faa!important;
+}
+
+a.btn.btn-outline-primary:hover i.fa {
+    color: #fff!important;
+}
+
+.owl-dots .owl-dot  {
+    display: none!important;
+    height: 0!important;
+    width: 0!important;
+    opacity: 0!important;
+}
+.box_grid figure {
+    margin-bottom: 0!important;
+    overflow: hidden!important;
+    position: relative!important;
+    max-height: 220px!important;
+}
+
+.swal2-icon.swal2-warning {
+    font-size: 16px!important;
+}
+
+
+button.delete-test {
+    position: absolute!important;
+    right: 20px!important;
+    background: transparent!important;
+    color: #444!important;
+    font-size: 25px!important;
+}
+
+.modaal-wrapper{
+    top: 85px!important;
+}
+.modaal-fullscreen .modaal-close {
+    top: 100px!important;
+    display: none!important;
+}
+
+.modal-backdrop.show {
+    position: initial!important;
+    top: initial!important;
+    left: initial!important;
+    z-index: initial!important;
+    width: initial!important;
+    height: initial!important;
+    background-color: initial!important;
+}
+
+a.full-width {
+    width: 100%;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+
+.hiden, .wish_bt{
+    display: none!important;
+    width: 0!important;
+    height: 0!important;
+    opacity: 0!important;
+}
+
+p{
+    font-size: 18px!important;
+}
+
+
+.label-primary {
+    background-color: #337ab7!important;
+}
+.label-success {
+    background-color: #5cb85c!important;
+}
+.label-info {
+    background-color: #5bc0de!important;
+}
+.label-warning {
+    background-color: #f0ad4e!important;
+}
+.label-danger {
+    background-color: #d9534f!important;
+}
+.label-default {
+    background-color: #777!important;
+}
+
+.play .tab-pane{
+    width: 0;
+    height: 0;
+}
+
+.play .tab-pane.active {
+    width: auto!important;
+    height: auto!important;
+    transition: width 2s, height 4s;
+}
